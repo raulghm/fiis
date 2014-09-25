@@ -16,6 +16,7 @@ header {
 		background-color: rgba(white,1);
 		// background-color: rgba(#f0f0f1,1);
 		box-shadow: 0px 0px 0 2px rgba(0, 0, 0, 0.05);
+
 		.inner{
 			padding: 20px;
 			nav{
@@ -35,7 +36,11 @@ header {
 	}
 
 	.inner {
-		padding: 40px 20px;
+		padding: 20px;
+
+		@include bp-small-3() {
+			padding: 40px 20px;
+		}
 	}
 
 	nav {

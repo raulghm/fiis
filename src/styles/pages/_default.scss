@@ -4,7 +4,8 @@ section.jumbotron {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 60%;
-	height: 380px;
+	padding-top: 80px;
+	// height: 280px;
 	position: relative;
 	
 	background: #f0f0f1; /* Old browsers */
@@ -19,6 +20,10 @@ section.jumbotron {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f6',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 
 
+
+	@include bp-small-3() {
+		height: 480px;
+	}
 
 	@include bp-large() {
 		height: 580px;
@@ -41,15 +46,33 @@ section.jumbotron {
 
 	img {
 		display: inline-block;
-		vertical-align: -25px;
-		width: auto;
-		margin-left: 20px;
+		width: 110px;
+		vertical-align: -20px;
+		margin-left: 10px;
+
+		@include bp-large() {
+			vertical-align: -25px;
+			width: auto;
+			margin-left: 20px;
+		}
 	}
 
 	.bottom {
-		position: absolute;
 		bottom: 120px;
+		margin-top: 40px;
 		@extend .cf;
+
+		.span {
+			float: left;
+		}
+
+		h3 {
+			@include font-size(2);
+		}
+
+		@include bp-large() {
+			position: absolute;
+		}
 
 		img {
 			width: 65px;
@@ -68,12 +91,19 @@ section.jumbotron {
 
 section.message {
 	text-align: center;
-	padding: 40px 0;
 	@include font-size(1.8);
 
+	@include bp-small-3() {
+		padding: 40px 0;
+	}
+
 	h2 {
-		@include font-size(5.6);
+		@include font-size(3.6);
 		font-weight: 300;
+
+		@include bp-small-3() {
+			@include font-size(5.6);
+		}
 	}
 
 	p {

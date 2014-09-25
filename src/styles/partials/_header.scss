@@ -2,6 +2,10 @@ header {
 	background-color: #fff;
 	width: 100%;
 	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: transparent;
 
 	&.second {
 		position: fixed;
@@ -10,7 +14,19 @@ header {
 		z-index: 1000;
 		transition: all .5s ease;
 		transform: translateY(-100px);
-		background-color: #f0f0f1;
+		background-color: rgba(#f0f0f1,1);
+		.inner{
+			padding: 20px;
+			nav{
+				li{
+					a{
+						font-size:  12px;
+						font-size: 11px;
+						letter-spacing: 1px;
+					}
+				}
+			}
+		}
 
 		&.toggle {
 			transform: translateY(0);

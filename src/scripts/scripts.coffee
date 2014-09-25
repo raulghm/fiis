@@ -40,7 +40,7 @@ $('document').ready ->
 		$("html, body").animate
 			scrollTop: $("[name=\"" + $.attr(this, "href").substr(1) + "\"]").offset().top
 		, 600, ->
-			animatingScroll = false
+			animatingScroll = false 
 
 	feed = new Instafeed
 		clientId: "fd88310566744275a3d68092d9c175d1"

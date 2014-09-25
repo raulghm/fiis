@@ -1,0 +1,726 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json gulp@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/raulghm/Documents/devel/test/fiis',
+6 verbose install   [ 'coffee-script',
+6 verbose install     'gulp',
+6 verbose install     'gulp-concat',
+6 verbose install     'gulp-rename',
+6 verbose install     'gulp-uglify',
+6 verbose install     'gulp-livereload',
+6 verbose install     'tiny-lr',
+6 verbose install     'gulp-coffee',
+6 verbose install     'gulp-minify-css',
+6 verbose install     'gulp-plumber',
+6 verbose install     'gulp-notify',
+6 verbose install     'gulp-autoprefixer',
+6 verbose install     'gulp-sass',
+6 verbose install     'browser-sync',
+6 verbose install     'gulp-strip-debug',
+6 verbose install     'gulp-assemble',
+6 verbose install     'handlebars-helpers',
+6 verbose install     'gulp-minify-html' ] ]
+7 info preinstall gulp@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'gulp-concat@*', null ]
+10 verbose cache add name=undefined spec="gulp-concat@*" args=["gulp-concat@*",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp-concat@*',
+11 verbose parsed url   path: 'gulp-concat@*',
+11 verbose parsed url   href: 'gulp-concat@*' }
+12 verbose cache add name="gulp-concat" spec="*" args=["gulp-concat","*"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '*',
+13 verbose parsed url   path: '*',
+13 verbose parsed url   href: '*' }
+14 verbose addNamed [ 'gulp-concat', '*' ]
+15 verbose addNamed [ null, '*' ]
+16 verbose cache add [ 'gulp-uglify@*', null ]
+17 verbose cache add name=undefined spec="gulp-uglify@*" args=["gulp-uglify@*",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'gulp-uglify@*',
+18 verbose parsed url   path: 'gulp-uglify@*',
+18 verbose parsed url   href: 'gulp-uglify@*' }
+19 verbose cache add name="gulp-uglify" spec="*" args=["gulp-uglify","*"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '*',
+20 verbose parsed url   path: '*',
+20 verbose parsed url   href: '*' }
+21 verbose addNamed [ 'gulp-uglify', '*' ]
+22 verbose addNamed [ null, '*' ]
+23 verbose cache add [ 'gulp-rename@*', null ]
+24 verbose cache add name=undefined spec="gulp-rename@*" args=["gulp-rename@*",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'gulp-rename@*',
+25 verbose parsed url   path: 'gulp-rename@*',
+25 verbose parsed url   href: 'gulp-rename@*' }
+26 verbose cache add name="gulp-rename" spec="*" args=["gulp-rename","*"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '*',
+27 verbose parsed url   path: '*',
+27 verbose parsed url   href: '*' }
+28 verbose addNamed [ 'gulp-rename', '*' ]
+29 verbose addNamed [ null, '*' ]
+30 verbose cache add [ 'gulp-livereload@*', null ]
+31 verbose cache add name=undefined spec="gulp-livereload@*" args=["gulp-livereload@*",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'gulp-livereload@*',
+32 verbose parsed url   path: 'gulp-livereload@*',
+32 verbose parsed url   href: 'gulp-livereload@*' }
+33 verbose cache add name="gulp-livereload" spec="*" args=["gulp-livereload","*"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '*',
+34 verbose parsed url   path: '*',
+34 verbose parsed url   href: '*' }
+35 verbose addNamed [ 'gulp-livereload', '*' ]
+36 verbose addNamed [ null, '*' ]
+37 silly lockFile 9d030a7e-gulp-concat gulp-concat@*
+38 verbose lock gulp-concat@* /Users/raulghm/.npm/9d030a7e-gulp-concat.lock
+39 silly lockFile d7240a72-gulp-uglify gulp-uglify@*
+40 verbose lock gulp-uglify@* /Users/raulghm/.npm/d7240a72-gulp-uglify.lock
+41 silly lockFile 8c7d6c1b-gulp-rename gulp-rename@*
+42 verbose lock gulp-rename@* /Users/raulghm/.npm/8c7d6c1b-gulp-rename.lock
+43 verbose cache add [ 'tiny-lr@*', null ]
+44 verbose cache add name=undefined spec="tiny-lr@*" args=["tiny-lr@*",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'tiny-lr@*',
+45 verbose parsed url   path: 'tiny-lr@*',
+45 verbose parsed url   href: 'tiny-lr@*' }
+46 verbose cache add name="tiny-lr" spec="*" args=["tiny-lr","*"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '*',
+47 verbose parsed url   path: '*',
+47 verbose parsed url   href: '*' }
+48 verbose addNamed [ 'tiny-lr', '*' ]
+49 verbose addNamed [ null, '*' ]
+50 silly lockFile 29089edc-tiny-lr tiny-lr@*
+51 verbose lock tiny-lr@* /Users/raulghm/.npm/29089edc-tiny-lr.lock
+52 verbose cache add [ 'gulp-coffee@*', null ]
+53 verbose cache add name=undefined spec="gulp-coffee@*" args=["gulp-coffee@*",null]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: 'gulp-coffee@*',
+54 verbose parsed url   path: 'gulp-coffee@*',
+54 verbose parsed url   href: 'gulp-coffee@*' }
+55 verbose cache add name="gulp-coffee" spec="*" args=["gulp-coffee","*"]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: '*',
+56 verbose parsed url   path: '*',
+56 verbose parsed url   href: '*' }
+57 verbose addNamed [ 'gulp-coffee', '*' ]
+58 verbose addNamed [ null, '*' ]
+59 silly lockFile 198eeaa9-gulp-coffee gulp-coffee@*
+60 verbose lock gulp-coffee@* /Users/raulghm/.npm/198eeaa9-gulp-coffee.lock
+61 verbose cache add [ 'gulp-minify-css@*', null ]
+62 verbose cache add name=undefined spec="gulp-minify-css@*" args=["gulp-minify-css@*",null]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: 'gulp-minify-css@*',
+63 verbose parsed url   path: 'gulp-minify-css@*',
+63 verbose parsed url   href: 'gulp-minify-css@*' }
+64 verbose cache add name="gulp-minify-css" spec="*" args=["gulp-minify-css","*"]
+65 verbose parsed url { protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: '*',
+65 verbose parsed url   path: '*',
+65 verbose parsed url   href: '*' }
+66 verbose addNamed [ 'gulp-minify-css', '*' ]
+67 verbose addNamed [ null, '*' ]
+68 silly lockFile e21f9977-gulp-minify-css gulp-minify-css@*
+69 verbose lock gulp-minify-css@* /Users/raulghm/.npm/e21f9977-gulp-minify-css.lock
+70 silly lockFile 68e73224-gulp-livereload gulp-livereload@*
+71 verbose lock gulp-livereload@* /Users/raulghm/.npm/68e73224-gulp-livereload.lock
+72 verbose cache add [ 'gulp-plumber@*', null ]
+73 verbose cache add name=undefined spec="gulp-plumber@*" args=["gulp-plumber@*",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'gulp-plumber@*',
+74 verbose parsed url   path: 'gulp-plumber@*',
+74 verbose parsed url   href: 'gulp-plumber@*' }
+75 verbose cache add name="gulp-plumber" spec="*" args=["gulp-plumber","*"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: '*',
+76 verbose parsed url   path: '*',
+76 verbose parsed url   href: '*' }
+77 verbose addNamed [ 'gulp-plumber', '*' ]
+78 verbose addNamed [ null, '*' ]
+79 silly lockFile 43be7be6-gulp-plumber gulp-plumber@*
+80 verbose lock gulp-plumber@* /Users/raulghm/.npm/43be7be6-gulp-plumber.lock
+81 verbose cache add [ 'gulp-notify@*', null ]
+82 verbose cache add name=undefined spec="gulp-notify@*" args=["gulp-notify@*",null]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'gulp-notify@*',
+83 verbose parsed url   path: 'gulp-notify@*',
+83 verbose parsed url   href: 'gulp-notify@*' }
+84 verbose cache add name="gulp-notify" spec="*" args=["gulp-notify","*"]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: '*',
+85 verbose parsed url   path: '*',
+85 verbose parsed url   href: '*' }
+86 verbose addNamed [ 'gulp-notify', '*' ]
+87 verbose addNamed [ null, '*' ]
+88 silly lockFile 07811638-gulp-notify gulp-notify@*
+89 verbose lock gulp-notify@* /Users/raulghm/.npm/07811638-gulp-notify.lock
+90 verbose cache add [ 'gulp-autoprefixer@*', null ]
+91 verbose cache add name=undefined spec="gulp-autoprefixer@*" args=["gulp-autoprefixer@*",null]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'gulp-autoprefixer@*',
+92 verbose parsed url   path: 'gulp-autoprefixer@*',
+92 verbose parsed url   href: 'gulp-autoprefixer@*' }
+93 verbose cache add name="gulp-autoprefixer" spec="*" args=["gulp-autoprefixer","*"]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: '*',
+94 verbose parsed url   path: '*',
+94 verbose parsed url   href: '*' }
+95 verbose addNamed [ 'gulp-autoprefixer', '*' ]
+96 verbose addNamed [ null, '*' ]
+97 silly lockFile 5678459e-gulp-autoprefixer gulp-autoprefixer@*
+98 verbose lock gulp-autoprefixer@* /Users/raulghm/.npm/5678459e-gulp-autoprefixer.lock
+99 silly addNameRange { name: 'gulp-concat', range: '*', hasData: false }
+100 silly addNameRange { name: 'gulp-uglify', range: '*', hasData: false }
+101 silly addNameRange { name: 'gulp-rename', range: '*', hasData: false }
+102 silly addNameRange { name: 'tiny-lr', range: '*', hasData: false }
+103 silly addNameRange { name: 'gulp-coffee', range: '*', hasData: false }
+104 verbose cache add [ 'gulp-sass@*', null ]
+105 verbose cache add name=undefined spec="gulp-sass@*" args=["gulp-sass@*",null]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'gulp-sass@*',
+106 verbose parsed url   path: 'gulp-sass@*',
+106 verbose parsed url   href: 'gulp-sass@*' }
+107 verbose cache add name="gulp-sass" spec="*" args=["gulp-sass","*"]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: '*',
+108 verbose parsed url   path: '*',
+108 verbose parsed url   href: '*' }
+109 verbose addNamed [ 'gulp-sass', '*' ]
+110 verbose addNamed [ null, '*' ]
+111 silly lockFile 85a075d2-gulp-sass gulp-sass@*
+112 verbose lock gulp-sass@* /Users/raulghm/.npm/85a075d2-gulp-sass.lock
+113 verbose cache add [ 'browser-sync@*', null ]
+114 verbose cache add name=undefined spec="browser-sync@*" args=["browser-sync@*",null]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'browser-sync@*',
+115 verbose parsed url   path: 'browser-sync@*',
+115 verbose parsed url   href: 'browser-sync@*' }
+116 verbose cache add name="browser-sync" spec="*" args=["browser-sync","*"]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: '*',
+117 verbose parsed url   path: '*',
+117 verbose parsed url   href: '*' }
+118 verbose addNamed [ 'browser-sync', '*' ]
+119 verbose addNamed [ null, '*' ]
+120 silly lockFile 6a35fa99-browser-sync browser-sync@*
+121 verbose lock browser-sync@* /Users/raulghm/.npm/6a35fa99-browser-sync.lock
+122 verbose cache add [ 'gulp-strip-debug@~0.3.0', null ]
+123 verbose cache add name=undefined spec="gulp-strip-debug@~0.3.0" args=["gulp-strip-debug@~0.3.0",null]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: 'gulp-strip-debug@~0.3.0',
+124 verbose parsed url   path: 'gulp-strip-debug@~0.3.0',
+124 verbose parsed url   href: 'gulp-strip-debug@~0.3.0' }
+125 verbose cache add name="gulp-strip-debug" spec="~0.3.0" args=["gulp-strip-debug","~0.3.0"]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: '~0.3.0',
+126 verbose parsed url   path: '~0.3.0',
+126 verbose parsed url   href: '~0.3.0' }
+127 verbose addNamed [ 'gulp-strip-debug', '~0.3.0' ]
+128 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+129 silly lockFile 3f364305-gulp-strip-debug-0-3-0 gulp-strip-debug@~0.3.0
+130 verbose lock gulp-strip-debug@~0.3.0 /Users/raulghm/.npm/3f364305-gulp-strip-debug-0-3-0.lock
+131 verbose cache add [ 'gulp-assemble@git://github.com/assemble/gulp-assemble',
+131 verbose cache add   null ]
+132 verbose cache add name=undefined spec="gulp-assemble@git://github.com/assemble/gulp-assemble" args=["gulp-assemble@git://github.com/assemble/gulp-assemble",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'gulp-assemble@git://github.com/assemble/gulp-assemble',
+133 verbose parsed url   path: 'gulp-assemble@git://github.com/assemble/gulp-assemble',
+133 verbose parsed url   href: 'gulp-assemble@git://github.com/assemble/gulp-assemble' }
+134 verbose cache add [ 'handlebars-helpers@git://github.com/assemble/handlebars-helpers#v0.6.0',
+134 verbose cache add   null ]
+135 verbose cache add name=undefined spec="handlebars-helpers@git://github.com/assemble/handlebars-helpers#v0.6.0" args=["handlebars-helpers@git://github.com/assemble/handlebars-helpers#v0.6.0",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: '#v0.6.0',
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'handlebars-helpers@git://github.com/assemble/handlebars-helpers',
+136 verbose parsed url   path: 'handlebars-helpers@git://github.com/assemble/handlebars-helpers',
+136 verbose parsed url   href: 'handlebars-helpers@git://github.com/assemble/handlebars-helpers#v0.6.0' }
+137 silly addNameRange { name: 'gulp-minify-css', range: '*', hasData: false }
+138 silly addNameRange { name: 'gulp-livereload', range: '*', hasData: false }
+139 silly addNameRange { name: 'gulp-plumber', range: '*', hasData: false }
+140 silly addNameRange { name: 'gulp-notify', range: '*', hasData: false }
+141 verbose cache add name="gulp-assemble" spec="git://github.com/assemble/gulp-assemble" args=["gulp-assemble","git://github.com/assemble/gulp-assemble"]
+142 verbose parsed url { protocol: 'git:',
+142 verbose parsed url   slashes: true,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: 'github.com',
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: 'github.com',
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: '/assemble/gulp-assemble',
+142 verbose parsed url   path: '/assemble/gulp-assemble',
+142 verbose parsed url   href: 'git://github.com/assemble/gulp-assemble' }
+143 silly lockFile bc2f16d7-ithub-com-assemble-gulp-assemble git://github.com/assemble/gulp-assemble
+144 verbose lock git://github.com/assemble/gulp-assemble /Users/raulghm/.npm/bc2f16d7-ithub-com-assemble-gulp-assemble.lock
+145 verbose cache add [ 'gulp-minify-html@*', null ]
+146 verbose cache add name=undefined spec="gulp-minify-html@*" args=["gulp-minify-html@*",null]
+147 verbose parsed url { protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: 'gulp-minify-html@*',
+147 verbose parsed url   path: 'gulp-minify-html@*',
+147 verbose parsed url   href: 'gulp-minify-html@*' }
+148 verbose cache add name="gulp-minify-html" spec="*" args=["gulp-minify-html","*"]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '*',
+149 verbose parsed url   path: '*',
+149 verbose parsed url   href: '*' }
+150 verbose addNamed [ 'gulp-minify-html', '*' ]
+151 verbose addNamed [ null, '*' ]
+152 silly lockFile 4206ca3d-gulp-minify-html gulp-minify-html@*
+153 verbose lock gulp-minify-html@* /Users/raulghm/.npm/4206ca3d-gulp-minify-html.lock
+154 verbose cache add [ 'coffee-script@*', null ]
+155 verbose cache add name=undefined spec="coffee-script@*" args=["coffee-script@*",null]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'coffee-script@*',
+156 verbose parsed url   path: 'coffee-script@*',
+156 verbose parsed url   href: 'coffee-script@*' }
+157 verbose cache add name="coffee-script" spec="*" args=["coffee-script","*"]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: '*',
+158 verbose parsed url   path: '*',
+158 verbose parsed url   href: '*' }
+159 verbose addNamed [ 'coffee-script', '*' ]
+160 verbose addNamed [ null, '*' ]
+161 silly lockFile 7281919f-coffee-script coffee-script@*
+162 verbose lock coffee-script@* /Users/raulghm/.npm/7281919f-coffee-script.lock
+163 verbose cache add [ 'gulp@*', null ]
+164 verbose cache add name=undefined spec="gulp@*" args=["gulp@*",null]
+165 verbose parsed url { protocol: null,
+165 verbose parsed url   slashes: null,
+165 verbose parsed url   auth: null,
+165 verbose parsed url   host: null,
+165 verbose parsed url   port: null,
+165 verbose parsed url   hostname: null,
+165 verbose parsed url   hash: null,
+165 verbose parsed url   search: null,
+165 verbose parsed url   query: null,
+165 verbose parsed url   pathname: 'gulp@*',
+165 verbose parsed url   path: 'gulp@*',
+165 verbose parsed url   href: 'gulp@*' }
+166 verbose cache add name="gulp" spec="*" args=["gulp","*"]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '*',
+167 verbose parsed url   path: '*',
+167 verbose parsed url   href: '*' }
+168 verbose addNamed [ 'gulp', '*' ]
+169 verbose addNamed [ null, '*' ]
+170 silly lockFile 51046861-gulp gulp@*
+171 verbose lock gulp@* /Users/raulghm/.npm/51046861-gulp.lock
+172 verbose cache add name="handlebars-helpers" spec="git://github.com/assemble/handlebars-helpers#v0.6.0" args=["handlebars-helpers","git://github.com/assemble/handlebars-helpers#v0.6.0"]
+173 verbose parsed url { protocol: 'git:',
+173 verbose parsed url   slashes: true,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: 'github.com',
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: 'github.com',
+173 verbose parsed url   hash: '#v0.6.0',
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: '/assemble/handlebars-helpers',
+173 verbose parsed url   path: '/assemble/handlebars-helpers',
+173 verbose parsed url   href: 'git://github.com/assemble/handlebars-helpers#v0.6.0' }
+174 silly lockFile dce325bd--com-assemble-handlebars-helpers git://github.com/assemble/handlebars-helpers
+175 verbose lock git://github.com/assemble/handlebars-helpers /Users/raulghm/.npm/dce325bd--com-assemble-handlebars-helpers.lock
+176 silly addNameRange { name: 'gulp-autoprefixer', range: '*', hasData: false }
+177 silly addNameRange { name: 'gulp-sass', range: '*', hasData: false }
+178 silly addNameRange { name: 'browser-sync', range: '*', hasData: false }
+179 silly addNameRange { name: 'gulp-strip-debug',
+179 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+179 silly addNameRange   hasData: false }
+180 verbose addRemoteGit [ 'git://github.com/assemble/gulp-assemble', 'master' ]
+181 silly addNameRange { name: 'gulp-minify-html', range: '*', hasData: false }
+182 silly addNameRange { name: 'coffee-script', range: '*', hasData: false }
+183 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+184 verbose addRemoteGit [ 'git://github.com/assemble/handlebars-helpers', 'v0.6.0' ]
+185 verbose url raw gulp-concat
+186 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-concat' ]
+187 verbose url resolved https://registry.npmjs.org/gulp-concat
+188 info trying registry request attempt 1 at 10:02:29
+189 verbose etag "D6XRDYL8P35OUFW527RB54SY3"
+190 http GET https://registry.npmjs.org/gulp-concat
+191 verbose url raw gulp-uglify
+192 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+193 verbose url resolved https://registry.npmjs.org/gulp-uglify
+194 info trying registry request attempt 1 at 10:02:29
+195 verbose etag "E4417EQZR9WM2AXNX775G38ZR"
+196 http GET https://registry.npmjs.org/gulp-uglify
+197 verbose url raw gulp-rename
+198 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rename' ]
+199 verbose url resolved https://registry.npmjs.org/gulp-rename
+200 info trying registry request attempt 1 at 10:02:29
+201 verbose etag "L6L3OU2WAWIZXCUV9JYPPB5N"
+202 http GET https://registry.npmjs.org/gulp-rename
+203 verbose url raw tiny-lr
+204 verbose url resolving [ 'https://registry.npmjs.org/', './tiny-lr' ]
+205 verbose url resolved https://registry.npmjs.org/tiny-lr
+206 info trying registry request attempt 1 at 10:02:29
+207 verbose etag "9D99I50JXMDDQVK8E2TI1Y906"
+208 http GET https://registry.npmjs.org/tiny-lr
+209 verbose url raw gulp-coffee
+210 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-coffee' ]
+211 verbose url resolved https://registry.npmjs.org/gulp-coffee
+212 info trying registry request attempt 1 at 10:02:29
+213 verbose etag "9NAINBGKGCB9129JBDDK4JHMQ"
+214 http GET https://registry.npmjs.org/gulp-coffee
+215 verbose url raw gulp-minify-css
+216 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-minify-css' ]
+217 verbose url resolved https://registry.npmjs.org/gulp-minify-css
+218 info trying registry request attempt 1 at 10:02:29
+219 verbose etag "4YAVKNBQ71ZZBDP262FVY720P"
+220 http GET https://registry.npmjs.org/gulp-minify-css
+221 verbose url raw gulp-livereload
+222 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-livereload' ]
+223 verbose url resolved https://registry.npmjs.org/gulp-livereload
+224 info trying registry request attempt 1 at 10:02:29
+225 verbose etag "1VSRFL1JOWCN9Q0FAG0ESJ6X2"
+226 http GET https://registry.npmjs.org/gulp-livereload
+227 warn `git config --get remote.origin.url` returned wrong result (git://github.com/assemble/gulp-assemble) You have not agreed to the Xcode license agreements, please run 'xcodebuild -license' (for user-level acceptance) or 'sudo xcodebuild -license' (for system-wide acceptance) from within a Terminal window to review and agree to the Xcode license agreements.
+228 warn `git config --get remote.origin.url` returned wrong result (git://github.com/assemble/handlebars-helpers) You have not agreed to the Xcode license agreements, please run 'xcodebuild -license' (for user-level acceptance) or 'sudo xcodebuild -license' (for system-wide acceptance) from within a Terminal window to review and agree to the Xcode license agreements.
+229 verbose url raw gulp-plumber
+230 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-plumber' ]
+231 verbose url resolved https://registry.npmjs.org/gulp-plumber
+232 info trying registry request attempt 1 at 10:02:30
+233 verbose etag "DS6UXP4DZT08Z5YUIRSFM1NTQ"
+234 http GET https://registry.npmjs.org/gulp-plumber
+235 verbose url raw gulp-notify
+236 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-notify' ]
+237 verbose url resolved https://registry.npmjs.org/gulp-notify
+238 info trying registry request attempt 1 at 10:02:30
+239 verbose etag "8H3N77Y8X8W0OUEGU6NZCYI0W"
+240 http GET https://registry.npmjs.org/gulp-notify
+241 verbose url raw gulp-autoprefixer
+242 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-autoprefixer' ]
+243 verbose url resolved https://registry.npmjs.org/gulp-autoprefixer
+244 info trying registry request attempt 1 at 10:02:30
+245 verbose etag "8XBE7QHTEH8DJOMK769AAWVBS"
+246 http GET https://registry.npmjs.org/gulp-autoprefixer
+247 verbose url raw gulp-sass
+248 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass' ]
+249 verbose url resolved https://registry.npmjs.org/gulp-sass
+250 info trying registry request attempt 1 at 10:02:30
+251 verbose etag "7YDZAKFQ0L425X5W7UTLDEETU"
+252 http GET https://registry.npmjs.org/gulp-sass
+253 verbose url raw gulp-strip-debug
+254 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-strip-debug' ]
+255 verbose url resolved https://registry.npmjs.org/gulp-strip-debug
+256 info trying registry request attempt 1 at 10:02:30
+257 verbose etag "D6D3YBN8B0ROKY5I7QBW7HIZN"
+258 http GET https://registry.npmjs.org/gulp-strip-debug
+259 verbose url raw browser-sync
+260 verbose url resolving [ 'https://registry.npmjs.org/', './browser-sync' ]
+261 verbose url resolved https://registry.npmjs.org/browser-sync
+262 info trying registry request attempt 1 at 10:02:30
+263 verbose etag "P7C1IEXDYW0K70HEFZ0IJQTA"
+264 http GET https://registry.npmjs.org/browser-sync
+265 verbose url raw gulp-minify-html
+266 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-minify-html' ]
+267 verbose url resolved https://registry.npmjs.org/gulp-minify-html
+268 info trying registry request attempt 1 at 10:02:30
+269 verbose etag "29NRFFHWU7M6UP40FV1IVA074"
+270 http GET https://registry.npmjs.org/gulp-minify-html
+271 verbose url raw coffee-script
+272 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+273 verbose url resolved https://registry.npmjs.org/coffee-script
+274 info trying registry request attempt 1 at 10:02:30
+275 verbose etag "BZ0LDH3GARHQVAOCNJ6HQHEXM"
+276 http GET https://registry.npmjs.org/coffee-script
+277 verbose url raw gulp
+278 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+279 verbose url resolved https://registry.npmjs.org/gulp
+280 info trying registry request attempt 1 at 10:02:30
+281 verbose etag "8FYKTPRHARMBPCUX0PIH6Q2QY"
+282 http GET https://registry.npmjs.org/gulp
+283 error git clone git://github.com/assemble/gulp-assemble You have not agreed to the Xcode license agreements, please run 'xcodebuild -license' (for user-level acceptance) or 'sudo xcodebuild -license' (for system-wide acceptance) from within a Terminal window to review and agree to the Xcode license agreements.
+284 error git clone git://github.com/assemble/handlebars-helpers You have not agreed to the Xcode license agreements, please run 'xcodebuild -license' (for user-level acceptance) or 'sudo xcodebuild -license' (for system-wide acceptance) from within a Terminal window to review and agree to the Xcode license agreements.
+285 silly lockFile bc2f16d7-ithub-com-assemble-gulp-assemble git://github.com/assemble/gulp-assemble
+286 silly lockFile bc2f16d7-ithub-com-assemble-gulp-assemble git://github.com/assemble/gulp-assemble
+287 silly lockFile dce325bd--com-assemble-handlebars-helpers git://github.com/assemble/handlebars-helpers
+288 silly lockFile dce325bd--com-assemble-handlebars-helpers git://github.com/assemble/handlebars-helpers
+289 error Error: Command failed:
+289 error You have not agreed to the Xcode license agreements, please run 'xcodebuild -license' (for user-level acceptance) or 'sudo xcodebuild -license' (for system-wide acceptance) from within a Terminal window to review and agree to the Xcode license agreements.
+289 error
+289 error     at ChildProcess.exithandler (child_process.js:637:15)
+289 error     at ChildProcess.EventEmitter.emit (events.js:98:17)
+289 error     at maybeClose (child_process.js:743:16)
+289 error     at Socket.<anonymous> (child_process.js:956:11)
+289 error     at Socket.EventEmitter.emit (events.js:95:17)
+289 error     at Pipe.close (net.js:465:12)
+290 error If you need help, you may report this *entire* log,
+290 error including the npm and node versions, at:
+290 error     <http://github.com/npm/npm/issues>
+291 error System Darwin 13.3.0
+292 error command "node" "/usr/local/bin/npm" "i"
+293 error cwd /Users/raulghm/Documents/devel/test/fiis
+294 error node -v v0.10.26
+295 error npm -v 1.4.3
+296 error code 69
+297 verbose exit [ 1, true ]

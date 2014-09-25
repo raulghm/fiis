@@ -1,11 +1,17 @@
 section.jumbotron {
 	background-color: #f0f0f1;
 	background-image: url(../images/web-cover.jpg);
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: 60%;
 	height: 580px;
 	padding-top: 100px;
 	position: relative;
+
+	@include bp-large() {
+		background-size: auto;
+		background-position: right bottom;
+	}
 
 	.inner {
 		position: static;

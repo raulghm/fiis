@@ -4930,7 +4930,7 @@ $(window).scroll(function() {
       }, 500);
     }, 1000);
   }
-  if ($(window).scrollTop() > 640) {
+  if ($(window).scrollTop() > 600) {
     return $('header.second').addClass('toggle');
   } else {
     return $('header.second').removeClass('toggle');
@@ -4939,6 +4939,15 @@ $(window).scroll(function() {
 
 $('document').ready(function() {
   var feed;
+  setTimeout(function() {
+    return $("html").addClass("init");
+  }, 10);
+  setTimeout(function() {
+    return $("html").addClass("init-1");
+  }, 200);
+  setTimeout(function() {
+    return $("html").addClass("init-2");
+  }, 700);
   $('nav a.menu').click(function(e) {
     e.preventDefault();
     animatingScroll = true;

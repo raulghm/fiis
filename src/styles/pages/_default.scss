@@ -1,11 +1,70 @@
 section.jumbotron {
-	background-color: #F4F4F6;
+	background-color: #f0f0f1;
+	background-image: url(../images/web-cover.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
 	height: 580px;
+	padding-top: 100px;
+	position: relative;
+
+	.inner {
+		position: static;
+	}
+
+	h1 {
+		font-weight: 300;
+		display: inline-block;
+		margin-bottom: 0;
+		line-height: 1;
+	}
+
+	img {
+		display: inline-block;
+		vertical-align: -20px;
+		width: 140px;
+		margin-left: 20px;
+	}
+
+	.bottom {
+		position: absolute;
+		bottom: 100px;
+		@extend .cf;
+
+		img {
+			width: 65px;
+			margin-right: 10px;
+			margin-left: 0;
+		}
+
+		h3 {
+			line-height: 1.4;
+			margin: 0;
+			font-style: italic;
+			font-weight: bold;
+		}
+	}
 }
 
 section.message {
 	text-align: center;
 	padding: 40px 0;
+	@include font-size(1.8);
+
+	h2 {
+		@include font-size(5.6);
+		font-weight: 300;
+	}
+
+	p {
+		line-height: 1.5;
+		margin-bottom: 20px;
+	}
+
+	.btn {
+		font-weight: 900;
+		@include font-size(1);
+		border-color: transparent;
+	}
 }
 
 section.feed {
@@ -23,6 +82,7 @@ section.feed {
 			height: 300px;
 			padding: 5px;
 			width: 100%;
+			// opacity: 0;
 
 			&:hover {
 				opacity: .8;

@@ -1,5 +1,5 @@
 header {
-	background-color: #F4F4F6;
+	background-color: #f0f0f1;
 	width: 100%;
 
 	&.second {
@@ -29,6 +29,16 @@ header {
 				display: inline-block;
 				font-weight: bold;
 				margin-right: 20px;
+
+				&:last-child {
+					a {
+						color: $brand-primary;
+					}
+				}
+
+				a {
+					color: #333;
+				}
 			}
 		}
 	}

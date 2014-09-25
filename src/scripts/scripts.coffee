@@ -12,13 +12,25 @@ $(window).scroll ->
 			, 500)
 		, 1000)
 
-	if $(window).scrollTop() > 640
+	if $(window).scrollTop() > 600
 		$('header.second').addClass 'toggle'
 	else
 		$('header.second').removeClass 'toggle'
 
 
 $('document').ready ->
+
+	setTimeout ->
+		$("html").addClass "init"
+	, 10
+
+	setTimeout ->
+		$("html").addClass "init-1"
+	, 200
+
+	setTimeout ->
+		$("html").addClass "init-2"
+	, 700
 
 	$('nav a.menu').click (e) ->
 		e.preventDefault()

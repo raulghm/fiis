@@ -4916,20 +4916,40 @@ test = function() {
   return console.log("test");
 };
 
+var animatingScroll;
+
+animatingScroll = false;
+
 $(window).scroll(function() {
-  if ($(window).scrollTop() + $(window).height() >= $(document).height() - 100) {
+  if ($(window).scrollTop() + $(window).height() >= $(document).height() - 150) {
     $('.loading').addClass('toggle');
-    return setTimeout(function() {
+    setTimeout(function() {
       $('.loading').removeClass('toggle');
       return setTimeout(function() {
         return $('.loading').click();
       }, 500);
     }, 1000);
   }
+  if ($(window).scrollTop() > 640) {
+    return $('header.second').addClass('toggle');
+  } else {
+    return $('header.second').removeClass('toggle');
+  }
 });
 
 $('document').ready(function() {
   var feed;
+  $('nav a.menu').click(function(e) {
+    e.preventDefault();
+    animatingScroll = true;
+    $('nav a').removeClass("active");
+    $(this).addClass("active");
+    return $("html, body").animate({
+      scrollTop: $("[name=\"" + $.attr(this, "href").substr(1) + "\"]").offset().top
+    }, 600, function() {
+      return animatingScroll = false;
+    });
+  });
   feed = new Instafeed({
     clientId: "fd88310566744275a3d68092d9c175d1",
     get: "tagged",

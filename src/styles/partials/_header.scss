@@ -1,5 +1,19 @@
 header {
 	background-color: #F4F4F6;
+	width: 100%;
+
+	&.second {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		transition: all .5s ease;
+		transform: translateY(-100px);
+
+		&.toggle {
+			transform: translateY(0);
+		}
+	}
 
 	.inner {
 		padding: 40px 20px;

@@ -29,6 +29,7 @@ SCRIPTS = [
 	"bower_components/instafeed.js/instafeed.js"
 	"bower_components/velocity/velocity.js"
 	"bower_components/velocity/velocity.ui.js"
+	"bower_components/jquery-infinite-scroll/jquery.infinitescroll.js"
 	# "bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"
 	dest + "/scripts/scripts.js"
 ]

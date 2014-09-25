@@ -1,7 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: geometricPrecision;
-  @include responsive-report();
+  // @include responsive-report();
 }
 
 a {

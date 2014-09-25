@@ -1,3 +1,8 @@
+$(window).scroll ->
+  if $(window).scrollTop() + $(window).height() >= $(document).height() - 200
+    $('.load').click()
+
+
 $('document').ready ->
 
 	# getMultipleTags = (tags) ->
@@ -53,3 +58,41 @@ $('document').ready ->
 	# )
 
 	# feed1.run()
+
+	# $("#instafeed-0").infinitescroll
+	#   loading:
+	#     finished: `undefined`
+	#     finishedMsg: "<em>Congratulations, you've reached the end of the internet.</em>"
+	#     img: null
+	#     msg: null
+	#     msgText: "<em>Loading the next set of posts...</em>"
+	#     selector: null
+	#     speed: "fast"
+	#     start: `undefined`
+
+	#   state:
+	#     isDuringAjax: false
+	#     isInvalidPage: false
+	#     isDestroyed: false
+	#     isDone: false # For when it goes all the way through the archive.
+	#     isPaused: false
+	#     currPage: 1
+
+	#   behavior: `undefined`
+	#   binder: $(window) # used to cache the selector for the element that will be scrolling
+	#   nextSelector: "div.navigation a:first"
+	#   navSelector: "div.navigation"
+	#   contentSelector: null # rename to pageFragment
+	#   extraScrollPx: 150
+	#   itemSelector: "div.post"
+	#   animate: false
+	#   pathParse: `undefined`
+	#   dataType: "html"
+	#   appendCallback: true
+	#   bufferPx: 40
+	#   errorCallback: ->
+
+	#   infid: 0 #Instance ID
+	#   pixelsFromNavToBottom: `undefined`
+	#   path: `undefined` # Can either be an array of URL parts (e.g. ["/page/", "/"]) or a function that accepts the page number and returns a URL
+	#   maxPage: `undefined` # to manually control maximum page (when maxPage is undefined, maximum page limitation is not work)

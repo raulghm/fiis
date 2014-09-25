@@ -8184,59 +8184,6 @@ button.close {
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: geometricPrecision; }
-  /* line 52, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-  body:after {
-    content: "bp-small";
-    font-size: 150%;
-    font-weight: 300;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(163, 42, 40, 0.8);
-    color: #fff;
-    padding: 0;
-    z-index: 99999; }
-  @media only screen and (min-width: 29.75em) {
-    /* line 67, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-    body:after {
-      content: "bp-small-2";
-      background-color: rgba(102, 163, 40, 0.8); } }
-  @media only screen and (min-width: 39.8em) {
-    /* line 74, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-    body:after {
-      content: "bp-small-3";
-      background-color: rgba(40, 163, 163, 0.8); } }
-  @media only screen and (min-width: 46.8em) {
-    /* line 81, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-    body:after {
-      content: "bp-medium";
-      background-color: rgba(101, 40, 163, 0.8); } }
-  @media only screen and (min-width: 48em) {
-    /* line 88, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-    body:after {
-      content: "bp-medium-2";
-      background-color: rgba(163, 40, 40, 0.8); } }
-  @media only screen and (min-width: 50em) {
-    /* line 95, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-    body:after {
-      content: "bp-large";
-      background-color: rgba(40, 104, 163, 0.8); } }
-  @media only screen and (min-width: 54.5em) {
-    /* line 102, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-    body:after {
-      content: "bp-large-2";
-      background-color: rgba(81, 163, 40, 0.8); } }
-  @media only screen and (min-width: 60em) {
-    /* line 109, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-    body:after {
-      content: "bp-xl";
-      background-color: rgba(163, 40, 163, 0.8); } }
-  @media only screen and (min-width: 67em) {
-    /* line 116, /Users/raul/devel/sites/fiis/bower_components/raulghm-sass-utils/dist/mixins/helpers */
-    body:after {
-      content: "bp-xl-2";
-      background-color: rgba(163, 40, 163, 0.8); } }
 
 /* line 8, /Users/raul/devel/sites/fiis/src/styles/layout/scaffolding */
 a:hover {

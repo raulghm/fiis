@@ -8222,9 +8222,10 @@ section {
 
 /* line 1, /Users/raul/devel/sites/fiis/src/styles/partials/header */
 header {
-  background-color: #f0f0f1;
-  width: 100%; }
-  /* line 5, /Users/raul/devel/sites/fiis/src/styles/partials/header */
+  background-color: #fff;
+  width: 100%;
+  z-index: 999; }
+  /* line 6, /Users/raul/devel/sites/fiis/src/styles/partials/header */
   header.second {
     position: fixed;
     top: 0;
@@ -8234,29 +8235,30 @@ header {
             transition: all 0.5s ease;
     -webkit-transform: translateY(-100px);
         -ms-transform: translateY(-100px);
-            transform: translateY(-100px); }
-    /* line 13, /Users/raul/devel/sites/fiis/src/styles/partials/header */
+            transform: translateY(-100px);
+    background-color: #f0f0f1; }
+    /* line 15, /Users/raul/devel/sites/fiis/src/styles/partials/header */
     header.second.toggle {
       -webkit-transform: translateY(0);
           -ms-transform: translateY(0);
               transform: translateY(0); }
-  /* line 18, /Users/raul/devel/sites/fiis/src/styles/partials/header */
+  /* line 20, /Users/raul/devel/sites/fiis/src/styles/partials/header */
   header .inner {
     padding: 40px 20px; }
-  /* line 23, /Users/raul/devel/sites/fiis/src/styles/partials/header */
+  /* line 25, /Users/raul/devel/sites/fiis/src/styles/partials/header */
   header nav ul {
     list-style: none;
     margin: 0;
     padding: 0; }
-    /* line 28, /Users/raul/devel/sites/fiis/src/styles/partials/header */
+    /* line 30, /Users/raul/devel/sites/fiis/src/styles/partials/header */
     header nav ul li {
       display: inline-block;
       font-weight: bold;
       margin-right: 20px; }
-      /* line 34, /Users/raul/devel/sites/fiis/src/styles/partials/header */
+      /* line 36, /Users/raul/devel/sites/fiis/src/styles/partials/header */
       header nav ul li:last-child a {
         color: #24B0BE; }
-      /* line 39, /Users/raul/devel/sites/fiis/src/styles/partials/header */
+      /* line 41, /Users/raul/devel/sites/fiis/src/styles/partials/header */
       header nav ul li a {
         color: #333; }
 
@@ -8268,71 +8270,76 @@ footer {
 section.jumbotron {
   background-color: #f0f0f1;
   background-image: url(../images/web-cover.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: 60%;
   height: 580px;
   padding-top: 100px;
   position: relative; }
-  /* line 10, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  @media only screen and (min-width: 50em) {
+    section.jumbotron {
+      background-size: auto;
+      background-position: right bottom; } }
+  /* line 16, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.jumbotron .inner {
     position: static; }
-  /* line 14, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  /* line 20, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.jumbotron h1 {
     font-weight: 300;
     display: inline-block;
     margin-bottom: 0;
     line-height: 1; }
-  /* line 21, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  /* line 27, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.jumbotron img {
     display: inline-block;
     vertical-align: -20px;
     width: 140px;
     margin-left: 20px; }
-  /* line 28, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  /* line 34, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.jumbotron .bottom {
     position: absolute;
     bottom: 100px; }
-    /* line 33, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    /* line 39, /Users/raul/devel/sites/fiis/src/styles/pages/default */
     section.jumbotron .bottom img {
       width: 65px;
       margin-right: 10px;
       margin-left: 0; }
-    /* line 39, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    /* line 45, /Users/raul/devel/sites/fiis/src/styles/pages/default */
     section.jumbotron .bottom h3 {
       line-height: 1.4;
       margin: 0;
       font-style: italic;
       font-weight: bold; }
 
-/* line 48, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+/* line 54, /Users/raul/devel/sites/fiis/src/styles/pages/default */
 section.message {
   text-align: center;
   padding: 40px 0;
   font-size: 18px;
   font-size: 1.8rem; }
-  /* line 53, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  /* line 59, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.message h2 {
     font-size: 56px;
     font-size: 5.6rem;
     font-weight: 300; }
-  /* line 58, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  /* line 64, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.message p {
     line-height: 1.5;
     margin-bottom: 20px; }
-  /* line 63, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  /* line 69, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.message .btn {
     font-weight: 900;
     font-size: 10px;
     font-size: 1rem;
     border-color: transparent; }
 
-/* line 71, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+/* line 77, /Users/raul/devel/sites/fiis/src/styles/pages/default */
 section.feed .inner {
   padding: 20px 10px; }
-/* line 75, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+/* line 81, /Users/raul/devel/sites/fiis/src/styles/pages/default */
 section.feed .instafeed {
   min-height: 400px; }
-  /* line 79, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  /* line 85, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.feed .instafeed .item {
     display: inline-block;
     -webkit-transition: all 0.3s ease;
@@ -8340,7 +8347,7 @@ section.feed .instafeed {
     height: 300px;
     padding: 5px;
     width: 100%; }
-    /* line 87, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    /* line 93, /Users/raul/devel/sites/fiis/src/styles/pages/default */
     section.feed .instafeed .item:hover {
       opacity: 0.8; }
     @media only screen and (min-width: 29.75em) {
@@ -8395,7 +8402,7 @@ section.feed .instafeed {
     @media only screen and (min-width: 60em) {
       section.feed .instafeed .item {
         height: 300px; } }
-    /* line 108, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    /* line 114, /Users/raul/devel/sites/fiis/src/styles/pages/default */
     section.feed .instafeed .item .item-inner {
       position: relative;
       background-size: cover;
@@ -8405,7 +8412,7 @@ section.feed .instafeed {
       display: block;
       border: 1px solid #eee;
       padding: 10px; }
-    /* line 120, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    /* line 126, /Users/raul/devel/sites/fiis/src/styles/pages/default */
     section.feed .instafeed .item .footer {
       position: absolute;
       bottom: 0;
@@ -8414,7 +8421,7 @@ section.feed .instafeed {
       background-color: #fff;
       padding: 10px;
       color: #000; }
-      /* line 132, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+      /* line 138, /Users/raul/devel/sites/fiis/src/styles/pages/default */
       section.feed .instafeed .item .footer .caption {
         display: inline-block;
         max-width: 50%;
@@ -8422,12 +8429,12 @@ section.feed .instafeed {
         text-overflow: ellipsis;
         white-space: nowrap;
         vertical-align: -3px; }
-/* line 140, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+/* line 146, /Users/raul/devel/sites/fiis/src/styles/pages/default */
 section.feed .bottom {
   text-align: center;
   width: 100%;
   margin-top: 20px; }
-  /* line 145, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  /* line 151, /Users/raul/devel/sites/fiis/src/styles/pages/default */
   section.feed .bottom .loading {
     background-color: #000;
     border-radius: 60px;
@@ -8442,7 +8449,7 @@ section.feed .bottom {
     -webkit-transform: translateY(10px);
         -ms-transform: translateY(10px);
             transform: translateY(10px); }
-    /* line 157, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    /* line 163, /Users/raul/devel/sites/fiis/src/styles/pages/default */
     section.feed .bottom .loading.toggle {
       -webkit-transform: translateY(0px);
           -ms-transform: translateY(0px);

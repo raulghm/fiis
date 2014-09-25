@@ -1,6 +1,7 @@
 header {
-	background-color: #f0f0f1;
+	background-color: #fff;
 	width: 100%;
+	z-index: 999;
 
 	&.second {
 		position: fixed;
@@ -9,6 +10,7 @@ header {
 		z-index: 1000;
 		transition: all .5s ease;
 		transform: translateY(-100px);
+		background-color: #f0f0f1;
 
 		&.toggle {
 			transform: translateY(0);

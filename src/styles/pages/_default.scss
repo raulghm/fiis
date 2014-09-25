@@ -8,65 +8,98 @@ section.message {
 	padding: 40px 0;
 }
 
-.instafeed {
-	min-height: 400px;
+section.feed {
+	.inner {
+		padding: 20px 10px;
+	}
 
-	.item {
-		display: inline-block;
-		transition: all .3s ease;
-		height: 300px;
-		padding: 5px;
-		width: 100%;
+	.instafeed {
+		min-height: 400px;
+		@extend .cf;
 
-		&:hover {
-			opacity: .8;
-		}
-
-		@include bp-small-2() {
-			@include span(1/2);
-		}
-
-		@include bp-small-3() {
-			@include span(1/3);
-			height: 250px;
-		}
-
-		@include bp-large() {
-			@include span(1/4);
-		}
-
-		@include bp-xl() {
+		.item {
+			display: inline-block;
+			transition: all .3s ease;
 			height: 300px;
-		}
-
-		.item-inner {
-			position: relative;
-			background-size: cover;
-			background-position: 50%;
-			background-repeat: no-repeat;
-			height: 100%;
-			// width: 100%;
-			display: block;
-			border: 1px solid #eee;
-			padding: 10px;
-		}
-
-		.footer {
-			position: absolute;
-			bottom: 0;
-			left: 0;
+			padding: 5px;
 			width: 100%;
-			background-color: #fff;
-			padding: 10px;
-			color: #000;
 
-			.icon {
+			&:hover {
+				opacity: .8;
 			}
 
-			.caption {
-				@include ellipsis(50%);
-				vertical-align: -3px;
+			@include bp-small-2() {
+				@include span(1/2);
+			}
+
+			@include bp-small-3() {
+				@include span(1/3);
+				height: 250px;
+			}
+
+			@include bp-large() {
+				@include span(1/4);
+			}
+
+			@include bp-xl() {
+				height: 300px;
+			}
+
+			.item-inner {
+				position: relative;
+				background-size: cover;
+				background-position: 50%;
+				background-repeat: no-repeat;
+				height: 100%;
+				// width: 100%;
+				display: block;
+				border: 1px solid #eee;
+				padding: 10px;
+			}
+
+			.footer {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				background-color: #fff;
+				padding: 10px;
+				color: #000;
+
+				.icon {
+				}
+
+				.caption {
+					@include ellipsis(50%);
+					vertical-align: -3px;
+				}
+			}
+		}
+	}
+
+	.bottom {
+		text-align: center;
+		width: 100%;
+		margin-top: 20px;
+
+		.loading {
+			background-color: #000;
+			border-radius: 60px;
+			padding: 15px 40px;
+			text-transform: uppercase;
+			color: #fff;
+			display: inline-block;
+			transition: all .4s ease;
+			visibility: hidden;
+			opacity: 0;
+			transform: translateY(10px);
+
+			&.toggle {
+				transform: translateY(0px);
+				visibility: visible;
+				opacity: 1;
 			}
 		}
 	}
 }
+

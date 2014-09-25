@@ -7713,11 +7713,11 @@ button.close {
     bottom: 20px; } }
 
 /* line 15, /Users/raul/devel/sites/fiis/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.clearfix:before, .cf:before, .inner:before, .clearfix:after, .cf:after, .inner:after {
+.clearfix:before, .cf:before, .inner:before, section.feed .instafeed:before, .clearfix:after, .cf:after, .inner:after, section.feed .instafeed:after {
   content: " ";
   display: table; }
 /* line 19, /Users/raul/devel/sites/fiis/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/clearfix */
-.clearfix:after, .cf:after, .inner:after {
+.clearfix:after, .cf:after, .inner:after, section.feed .instafeed:after {
   clear: both; }
 
 /* line 12, /Users/raul/devel/sites/fiis/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities */
@@ -8231,22 +8231,25 @@ section.message {
   text-align: center;
   padding: 40px 0; }
 
-/* line 11, /Users/raul/devel/sites/fiis/src/styles/pages/default */
-.instafeed {
+/* line 12, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+section.feed .inner {
+  padding: 20px 10px; }
+/* line 16, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+section.feed .instafeed {
   min-height: 400px; }
-  /* line 14, /Users/raul/devel/sites/fiis/src/styles/pages/default */
-  .instafeed .item {
+  /* line 20, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  section.feed .instafeed .item {
     display: inline-block;
     -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
     height: 300px;
     padding: 5px;
     width: 100%; }
-    /* line 21, /Users/raul/devel/sites/fiis/src/styles/pages/default */
-    .instafeed .item:hover {
+    /* line 27, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    section.feed .instafeed .item:hover {
       opacity: 0.8; }
     @media only screen and (min-width: 29.75em) {
-      .instafeed .item {
+      section.feed .instafeed .item {
         *zoom: 1;
         float: left;
         clear: none;
@@ -8255,14 +8258,14 @@ section.message {
         margin-left: 0%;
         margin-right: 0%; }
         /* line 344, /Users/raul/devel/sites/fiis/bower_components/jeet.gs/scss/jeet/_grid */
-        .instafeed .item:before, .instafeed .item:after {
+        section.feed .instafeed .item:before, section.feed .instafeed .item:after {
           content: '';
           display: table; }
         /* line 349, /Users/raul/devel/sites/fiis/bower_components/jeet.gs/scss/jeet/_grid */
-        .instafeed .item:after {
+        section.feed .instafeed .item:after {
           clear: both; } }
     @media only screen and (min-width: 39.8em) {
-      .instafeed .item {
+      section.feed .instafeed .item {
         *zoom: 1;
         float: left;
         clear: none;
@@ -8272,14 +8275,14 @@ section.message {
         margin-right: 0%;
         height: 250px; }
         /* line 344, /Users/raul/devel/sites/fiis/bower_components/jeet.gs/scss/jeet/_grid */
-        .instafeed .item:before, .instafeed .item:after {
+        section.feed .instafeed .item:before, section.feed .instafeed .item:after {
           content: '';
           display: table; }
         /* line 349, /Users/raul/devel/sites/fiis/bower_components/jeet.gs/scss/jeet/_grid */
-        .instafeed .item:after {
+        section.feed .instafeed .item:after {
           clear: both; } }
     @media only screen and (min-width: 50em) {
-      .instafeed .item {
+      section.feed .instafeed .item {
         *zoom: 1;
         float: left;
         clear: none;
@@ -8288,17 +8291,17 @@ section.message {
         margin-left: 0%;
         margin-right: 0%; }
         /* line 344, /Users/raul/devel/sites/fiis/bower_components/jeet.gs/scss/jeet/_grid */
-        .instafeed .item:before, .instafeed .item:after {
+        section.feed .instafeed .item:before, section.feed .instafeed .item:after {
           content: '';
           display: table; }
         /* line 349, /Users/raul/devel/sites/fiis/bower_components/jeet.gs/scss/jeet/_grid */
-        .instafeed .item:after {
+        section.feed .instafeed .item:after {
           clear: both; } }
     @media only screen and (min-width: 60em) {
-      .instafeed .item {
+      section.feed .instafeed .item {
         height: 300px; } }
-    /* line 42, /Users/raul/devel/sites/fiis/src/styles/pages/default */
-    .instafeed .item .item-inner {
+    /* line 48, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    section.feed .instafeed .item .item-inner {
       position: relative;
       background-size: cover;
       background-position: 50%;
@@ -8307,8 +8310,8 @@ section.message {
       display: block;
       border: 1px solid #eee;
       padding: 10px; }
-    /* line 54, /Users/raul/devel/sites/fiis/src/styles/pages/default */
-    .instafeed .item .footer {
+    /* line 60, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    section.feed .instafeed .item .footer {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -8316,11 +8319,38 @@ section.message {
       background-color: #fff;
       padding: 10px;
       color: #000; }
-      /* line 66, /Users/raul/devel/sites/fiis/src/styles/pages/default */
-      .instafeed .item .footer .caption {
+      /* line 72, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+      section.feed .instafeed .item .footer .caption {
         display: inline-block;
         max-width: 50%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
         vertical-align: -3px; }
+/* line 80, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+section.feed .bottom {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px; }
+  /* line 85, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+  section.feed .bottom .loading {
+    background-color: #000;
+    border-radius: 60px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+            transform: translateY(10px); }
+    /* line 97, /Users/raul/devel/sites/fiis/src/styles/pages/default */
+    section.feed .bottom .loading.toggle {
+      -webkit-transform: translateY(0px);
+          -ms-transform: translateY(0px);
+              transform: translateY(0px);
+      visibility: visible;
+      opacity: 1; }

@@ -1,6 +1,17 @@
 $(window).scroll ->
-  if $(window).scrollTop() + $(window).height() >= $(document).height() - 200
-    $('.load').click()
+  if $(window).scrollTop() + $(window).height() >= $(document).height() - 100
+  	$('.loading').addClass 'toggle'
+
+  	setTimeout(->
+  		$('.loading').removeClass 'toggle'
+
+  		setTimeout(->
+	  		$('.loading').click()
+	  	, 500)
+  	, 1000)
+
+
+
 
 
 $('document').ready ->
@@ -47,7 +58,7 @@ $('document').ready ->
 
 	feed.run()
 
-	$('.load').click ->
+	$('.loading').click ->
 		feed.next()
 
 	# feed1 = new Instafeed(

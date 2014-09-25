@@ -4,17 +4,19 @@ section.jumbotron {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 60%;
-	height: 580px;
-	padding-top: 100px;
+	height: 380px;
 	position: relative;
 
 	@include bp-large() {
+		height: 580px;
+		padding-top: 100px;
 		background-size: auto;
-		background-position: right bottom;
+		background-position: center bottom;
 	}
 
 	.inner {
 		position: static;
+		max-width: 960px;
 	}
 
 	h1 {
@@ -26,8 +28,8 @@ section.jumbotron {
 
 	img {
 		display: inline-block;
-		vertical-align: -20px;
-		width: 140px;
+		vertical-align: -25px;
+		width: auto;
 		margin-left: 20px;
 	}
 
@@ -45,7 +47,7 @@ section.jumbotron {
 		h3 {
 			line-height: 1.4;
 			margin: 0;
-			font-style: italic;
+			// font-style: italic;
 			font-weight: bold;
 		}
 	}
@@ -70,6 +72,8 @@ section.message {
 		font-weight: 900;
 		@include font-size(1);
 		border-color: transparent;
+		padding: 14px 20px;
+		letter-spacing: 1px;
 	}
 }
 
@@ -79,7 +83,7 @@ section.feed {
 	}
 
 	.instafeed {
-		min-height: 400px;
+		min-height: 300px;
 		@extend .cf;
 
 		.item {
@@ -159,6 +163,7 @@ section.feed {
 			visibility: hidden;
 			opacity: 0;
 			transform: translateY(10px);
+			font-weight: bold;
 
 			&.toggle {
 				transform: translateY(0px);

@@ -13,8 +13,7 @@ Starter web kit for static web development
 * notify
 
 ## Install
-npm install
-bower install
+npm install && bower install
 
 ## Serve
 gulp

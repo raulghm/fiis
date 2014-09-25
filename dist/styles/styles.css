@@ -8229,7 +8229,7 @@ header {
   top: 0;
   left: 0;
   background-color: transparent; }
-  /* line 10, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+  /* line 9, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
   header.second {
     position: fixed;
     top: 0;
@@ -8242,36 +8242,36 @@ header {
             transform: translateY(-100px);
     background-color: white;
     box-shadow: 0px 0px 0 2px rgba(0, 0, 0, 0.05); }
-    /* line 20, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+    /* line 19, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
     header.second .inner {
       padding: 20px; }
-      /* line 24, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+      /* line 23, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
       header.second .inner nav li a {
         font-size: 12px;
         font-size: 11px;
         letter-spacing: 1px; }
-    /* line 33, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+    /* line 32, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
     header.second.toggle {
       -webkit-transform: translateY(0);
           -ms-transform: translateY(0);
               transform: translateY(0); }
-  /* line 38, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+  /* line 37, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
   header .inner {
     padding: 40px 20px; }
-  /* line 43, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+  /* line 42, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
   header nav ul {
     list-style: none;
     margin: 0;
     padding: 0; }
-    /* line 48, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+    /* line 47, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
     header nav ul li {
       display: inline-block;
       font-weight: bold;
       margin-right: 20px; }
-      /* line 54, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+      /* line 53, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
       header nav ul li:last-child a {
         color: #24B0BE; }
-      /* line 59, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
+      /* line 58, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/partials/header */
       header nav ul li a {
         color: #333; }
 
@@ -8287,60 +8287,75 @@ section.jumbotron {
   background-repeat: no-repeat;
   background-position: 60%;
   height: 380px;
-  position: relative; }
+  position: relative;
+  background: #f0f0f1;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #f7f7f6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%, #f7f7f6 100%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear, 135deg, #ffffff 0%, #f7f7f6 100%;
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f6',GradientType=1 );
+  /* IE6-8 fallback on horizontal gradient */ }
   @media only screen and (min-width: 50em) {
     section.jumbotron {
       height: 580px;
       padding-top: 140px;
       background-size: auto;
       background-position: center bottom; } }
-  /* line 17, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 30, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.jumbotron .inner {
     position: static;
     max-width: 960px; }
-  /* line 22, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 35, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.jumbotron h1 {
     font-weight: 300;
     display: inline-block;
     margin-bottom: 0;
     line-height: 1; }
-  /* line 29, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 42, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.jumbotron img {
     display: inline-block;
     vertical-align: -25px;
     width: auto;
     margin-left: 20px; }
-  /* line 36, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 49, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.jumbotron .bottom {
     position: absolute;
     bottom: 120px; }
-    /* line 41, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+    /* line 54, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
     section.jumbotron .bottom img {
       width: 65px;
       margin-right: 10px;
       margin-left: 0; }
-    /* line 47, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+    /* line 60, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
     section.jumbotron .bottom h3 {
       line-height: 1.4;
       margin: 0;
       font-weight: bold; }
 
-/* line 56, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+/* line 69, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
 section.message {
   text-align: center;
   padding: 40px 0;
   font-size: 18px;
   font-size: 1.8rem; }
-  /* line 61, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 74, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.message h2 {
     font-size: 56px;
     font-size: 5.6rem;
     font-weight: 300; }
-  /* line 66, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 79, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.message p {
     line-height: 1.5;
     margin-bottom: 20px; }
-  /* line 71, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 84, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.message .btn {
     font-weight: 900;
     font-size: 10px;
@@ -8349,13 +8364,13 @@ section.message {
     padding: 14px 20px;
     letter-spacing: 1px; }
 
-/* line 81, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+/* line 94, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
 section.feed .inner {
   padding: 20px 10px; }
-/* line 85, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+/* line 98, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
 section.feed .instafeed {
   min-height: 300px; }
-  /* line 89, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 102, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.feed .instafeed .item {
     display: inline-block;
     -webkit-transition: all 0.3s ease;
@@ -8363,7 +8378,7 @@ section.feed .instafeed {
     height: 300px;
     padding: 5px;
     width: 100%; }
-    /* line 97, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+    /* line 110, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
     section.feed .instafeed .item:hover {
       opacity: 0.8; }
     @media only screen and (min-width: 29.75em) {
@@ -8418,7 +8433,7 @@ section.feed .instafeed {
     @media only screen and (min-width: 60em) {
       section.feed .instafeed .item {
         height: 300px; } }
-    /* line 118, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+    /* line 131, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
     section.feed .instafeed .item .item-inner {
       position: relative;
       background-size: cover;
@@ -8428,7 +8443,7 @@ section.feed .instafeed {
       display: block;
       border: 1px solid #eee;
       padding: 10px; }
-    /* line 130, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+    /* line 143, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
     section.feed .instafeed .item .footer {
       position: absolute;
       bottom: 0;
@@ -8437,7 +8452,7 @@ section.feed .instafeed {
       background-color: #fff;
       padding: 10px;
       color: #000; }
-      /* line 142, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+      /* line 155, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
       section.feed .instafeed .item .footer .caption {
         display: inline-block;
         max-width: 50%;
@@ -8445,12 +8460,12 @@ section.feed .instafeed {
         text-overflow: ellipsis;
         white-space: nowrap;
         vertical-align: -3px; }
-/* line 150, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+/* line 163, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
 section.feed .bottom {
   text-align: center;
   width: 100%;
   margin-top: 20px; }
-  /* line 155, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+  /* line 168, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
   section.feed .bottom .loading {
     background-color: #000;
     border-radius: 60px;
@@ -8466,7 +8481,7 @@ section.feed .bottom {
         -ms-transform: translateY(10px);
             transform: translateY(10px);
     font-weight: bold; }
-    /* line 168, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
+    /* line 181, /Users/rok/Documents/WORK/work/Clients/socialab.com/gap minisitio/development/src/styles/pages/default */
     section.feed .bottom .loading.toggle {
       -webkit-transform: translateY(0px);
           -ms-transform: translateY(0px);

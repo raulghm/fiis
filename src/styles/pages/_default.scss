@@ -9,7 +9,7 @@ section.jumbotron {
 
 	@include bp-large() {
 		height: 580px;
-		padding-top: 100px;
+		padding-top: 140px;
 		background-size: auto;
 		background-position: center bottom;
 	}
@@ -35,7 +35,7 @@ section.jumbotron {
 
 	.bottom {
 		position: absolute;
-		bottom: 100px;
+		bottom: 120px;
 		@extend .cf;
 
 		img {
